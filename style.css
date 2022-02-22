@@ -1,5 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&display=swap');
+
 :root{
     --button-color-bg:magenta;
+    --background-img:url(https://images.unsplash.com/photo-1645491240125-29f3e8f09c8f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=386&q=80);
+    --logo-font: meow;
+    
 }
 
 button{
@@ -20,13 +25,22 @@ button{
 }
 .main-left{
     width:35%;
+    background-image:var(--background-img);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .main-left-logo-bar{
-    background-color: gray;
+    display: flex;
+    background-color: rgba(138, 161, 32, 0.473);
     width:auto;
     height:20%;
     position: relative;
     top: 20%;
+    opacity: 75%;
+    font-family: 'Libre Barcode 39 Text', cursive;
+    font-size: 5rem;
+    justify-content: center;
+    align-items: flex-end;
 }
 
 .main-right-top{
