@@ -1,0 +1,16 @@
+:root{
+    --button-color-bg:magenta;
+}
+
+button{
+    background-color: var(--button-color-bg,orange);
+}
+.main-container{
+    display: flex;
+    padding:20px;
+}
+.column{
+    border: 2px solid black;
+    width: 50vw;
+    height: 75vh;
+}
