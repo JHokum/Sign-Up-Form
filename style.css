@@ -65,11 +65,31 @@ button{
     align-items: center;
 }
 form{
+    display: flex;
+    flex-direction: column;
     width:80%;
     height:80%;
     border: 2px solid magenta;
 
 }
+.input-container{
+    display: flex;
+    /* padding:10px; */
+    justify-content: space-around;
+    border:3px rgb(17, 35, 68) dotted;
+    height: 100%;
+    width: 100%;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    margin: 16px;
+    width: fit-content;
+    height: fit-content;
+    border:2px red solid;
+    
+}
+
 .main-right-bottom{
     width: auto;
     height:30%;
