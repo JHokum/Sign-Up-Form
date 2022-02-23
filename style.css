@@ -29,7 +29,9 @@ button{
     width:35%;
     background-image:var(--background-img);
     background-repeat: no-repeat;
+   
     background-size: cover;
+    
 }
 .main-left-logo-bar{
     display: flex;
@@ -69,26 +71,38 @@ form{
     flex-direction: column;
     width:80%;
     height:80%;
-    border: 2px solid magenta;
+    /* border: 2px solid magenta; */
 
 }
 .input-container{
     display: flex;
     /* padding:10px; */
-    justify-content: space-around;
-    border:3px rgb(17, 35, 68) dotted;
+    /* justify-content: space-around; */
+    /* border:3px rgb(17, 35, 68) dotted; */
     height: 100%;
     width: 100%;
+}
+.input-group{
+    display: flex;
+    flex-direction: column;
+    /* border:4px salmon solid; */
+    width:100%;
+    height: 100%;
+    
 }
 .input{
     display: flex;
     flex-direction: column;
-    margin: 16px;
-    width: fit-content;
-    height: fit-content;
-    border:2px red solid;
+    /* margin: 16px; */
+    width: 100%;
+    height:100%;
+    /* border:2px red solid; */
     
 }
+input{
+    width: 100%;
+}
+
 
 .main-right-bottom{
     width: auto;
